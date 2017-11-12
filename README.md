@@ -1,2 +1,7 @@
 # ros_robot_race
 A python program to make ros simulated robot complete racetrack
+
+The starter code is available from  https://github.com/uml-robotics/uml_race.git
+Under scripts there is a python code name "tarun_rosrace.py" which makes the robot complete the ractrack given in the starter code
+
+To run this simulation on one node(terminal) run "roslaunch uml_ractrack racetrack.launch" which opens the racetrack and on another node run "rosrun uml_racetrack tarun_rosrace.py" which makes the robot run the racetrack
